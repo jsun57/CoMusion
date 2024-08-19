@@ -1,0 +1,3 @@
+data_3d_h36m.npz
+data_3d_h36m_text.npz
+Please follow https://github.com/wei-mao-2019/gsps for H36M dataset preparation.

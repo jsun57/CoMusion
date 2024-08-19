@@ -1,0 +1,1 @@
+Please follow https://github.com/BarqueroGerman/BeLFusion/tree/main for AMASS dataset preparation.
