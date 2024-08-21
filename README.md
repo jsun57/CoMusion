@@ -1,11 +1,11 @@
 # CoMusion
 ### CoMusion: Towards Consistent Stochastic Human Motion Prediction via Motion Diffusion (ECCV'2024)
-by [Jiarui Sun](https://ece.illinois.edu/about/directory/grad-students/jsun57), and [Girish Chowdhary](https://ece.illinois.edu/about/directory/faculty/girishc)
+by [Jiarui Sun](https://ece.illinois.edu/about/directory/grad-students/jsun57), and [Girish Chowdhary](https://ece.illinois.edu/about/directory/faculty/girishc).
 
 
 [[Project Page](https://jsun57.github.io/CoMusion/)] [[Paper](https://arxiv.org/pdf/2305.12554)]
 
-This repository contains the official PyTorch implementation of the paper:
+This repository contains the official PyTorch implementation of CoMusion.
 
 We develop a single-stage diffusion-based stochastic HMP framework to predict accurate, realistic, and consistent motions with respect to motion history.
 
