@@ -148,7 +148,7 @@ class DatasetAMASS(Dataset):
         trans = []
         base = [str(self.t_his), str(self.t_pred), str(self.stride), str(self.augmentation)]
         if self.transform is not None:
-            trans = [str(self.transform.transforms[0].flip_prob), str(self.transform.transforms[0].mirror_prob), str(self.transform.transforms[0].rotate_prob)]
+            trans = [str(self.transform.transforms[0].rotate_prob)]
         to_hash = "_".join(tuple(base + trans)).replace('.', '')
         return to_hash, str(hashlib.sha256(str(to_hash).encode('utf-8')).hexdigest())
 
