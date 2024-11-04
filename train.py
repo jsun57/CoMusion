@@ -293,7 +293,6 @@ class Trainer(object):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--cfg', default=None)
-    parser.add_argument('--mode', default='train')
     parser.add_argument('--test', action='store_true', default=False)
     parser.add_argument('--load', action='store_true', default=False)
     parser.add_argument('--seed', type=int, default=0)
@@ -310,7 +309,6 @@ def main():
         torch.cuda.set_device(args.gpu_index)
 
     """parameter"""
-    mode = args.mode
     t_his = cfg.t_his
     t_pred = cfg.t_pred
     node_n = cfg.node_n
